@@ -1,0 +1,115 @@
+/* body{
+    padding: 10px 10px;
+ }
+
+ 
+.nameerror{
+    color: red;
+}
+
+.borderred{
+    border: 2px solid red !important;
+}
+
+.bordergreen{
+    border: 2px solid rgb(44, 247, 44) !important;
+  
+}
+
+.design{
+    text-align: center;
+    background-color: rgba(87, 76, 249, 0.7);
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* ---------------- GLOBAL ---------------- */
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f7faff; /* clean white-blue background */
+    color: #0c2340;
+    line-height: 1.8;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+    background: linear-gradient(90deg, #3a68ff, #005eff);
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 10px 28px rgba(0, 32, 128, 0.25);
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.5));
+}
+
+.navbar nav a {
+    margin: 0 22px;
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar nav a:hover {
+    color: #d7e9ff;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+/* ---------------- SEARCH BAR ---------------- */
+.search-box {
+    display: flex;
+    gap: 7px;
+}
+
+.search-box input {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+}
+
+.search-box button {
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #ffd43b;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+}
